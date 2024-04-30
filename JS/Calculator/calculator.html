@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="../Calculator/cal.css">
+    
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <input type="text" class="input" id="input1">
+        <input type="text" class="input" id="input2">
+        <div class="button">
+            <button class="operations" onclick="addition('+')">+</button>
+            <button class="operations" onclick="sub('-')">-</button>
+            <button class="operations" onclick="mul('*')">*</button>
+            <button class="operations" onclick="div('/')">/</button>
+            <button class="operations" onclick="clearValue()">C</button>
+        </div>
+        <br>
+        <input type="text" class="input" id="result" readonly>
+    </div>
+    <script src="../Calculator/cal.js" ></script>
+</body>
+</html>
